@@ -62,12 +62,12 @@ p {
 }
 
 ::-moz-selection {
-  background: rgb(255, 183, 197);
+  background: rgb(188, 156, 196);
   color: #fff;
 }
 
 ::selection {
-  background: rgb(255, 183, 197);
+  background: rgb(188, 156, 196);
   color: #fff;
 }
 
@@ -137,7 +137,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: rgb(255, 183, 197);
+  background: rgb(188, 156, 196);
 }
 
 .mb-30 {
@@ -158,7 +158,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgb(255, 183, 197);
+  background: rgb(188, 156, 196);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -270,7 +270,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
 }
 
 .navbar .dropdown ul {
@@ -304,7 +304,7 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
 }
 
 .navbar .dropdown:hover>ul {
@@ -403,7 +403,7 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
 }
 
 .navbar-mobile .getstarted,
@@ -438,7 +438,7 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -466,17 +466,18 @@ p {
 .hero-content h1 {
   font-size: 50px;
   font-weight: 700;
-  text-shadow: #000;
+  text-shadow: rgb(74, 15, 15) 2px 2px 10px, #805555 0px 0px 30px; 
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
 }
 
 .hero-content p {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
+  text-shadow: rgb(74, 15, 15) 2px 2px 4px, #805555 0px 0px 30px; 
   text-transform: capitalize;
   color: #fff;
   font-weight: 500;
@@ -489,12 +490,13 @@ p {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
+/*** USEFUL ?
 .breadcrumbs {
   padding: 120px 0 0 0;
   background-color: white;
@@ -552,7 +554,7 @@ p {
     display: inline-block;
   }
 }
-
+***/
 /*-----------------------------------------------------------------------------------*/
 /*  About
 /*-----------------------------------------------------------------------------------*/
@@ -565,7 +567,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid rgb(255, 183, 197);
+  border: 20px solid rgb(188, 156, 196);
 }
 
 #about .div-img-bg .about-img img {
@@ -618,7 +620,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
   line-height: 44px;
 }
 
@@ -632,11 +634,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid rgb(255, 183, 197);
+  border: 1px solid rgb(188, 156, 196);
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(255, 183, 197);
+  background-color: rgb(188, 156, 196);
 }
 
 /*--------------------------------------------------------------
@@ -671,7 +673,7 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -714,7 +716,7 @@ p {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -748,7 +750,7 @@ p {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(255, 183, 197);
+  background-color: rgb(188, 156, 196);
 }
 
 .portfolio-details .portfolio-info {
@@ -915,7 +917,7 @@ p {
 }
 
 .journal-txt h4 a:hover {
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -999,7 +1001,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid rgb(255, 183, 197);
+  border-left: 4px solid rgb(188, 156, 196);
 }
 
 /*--------------------------------------------------------------
@@ -1038,7 +1040,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: rgb(255, 183, 197);
+  color: rgb(188, 156, 196);
   transition: all 0.5s ease-in-out 0s;
 }
 
