@@ -644,6 +644,63 @@ p {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of images into the next row */
+  margin: 10px auto;
+  max-width: 600px;
+  position: relative;
+}
+
+.gallery__item {
+  width: 25%; /* Each item will take 25% of the width (4 items per row) */
+  padding: 6px; /* Adjusts the spacing between the images */
+  box-sizing: border-box; /* Makes sure padding doesn't affect the width */
+}
+
+.gallery__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery__thumb {
+  padding-top: 6px;
+  margin: 6px;
+}
+
+.gallery__selector {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.gallery__selector:checked + .gallery__img {
+  opacity: 1;
+}
+
+.gallery__selector:checked ~ .gallery__thumb > img {
+  box-shadow: 0 0 0 3px rgb(188, 156, 196);
+}
+
+@media screen and (min-width: 600px) {
+  .gallery {
+    padding-top: 400px; /* $max-img-height value */
+  }
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+
 #portfolio {
   position: relative;
   padding-bottom: 50px;
@@ -736,6 +793,7 @@ p {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -790,6 +848,9 @@ p {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+
+
 /* CONTACT */
 #contact {
   height: auto;
@@ -869,6 +930,8 @@ p {
     transform: rotate(360deg);
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Blog
